@@ -1,0 +1,23 @@
+.box {
+    display: flex;   
+    height: 700px;
+}
+
+.card {
+    width: 300px;
+}
+
+.img-wrap img {
+    width: 100%;
+    min-width: 100%;
+} 
+
+@keyframes anime {
+    from {
+        margin-left: -500px
+    }
+    
+    to {
+        margin: 0;
+    }
+}

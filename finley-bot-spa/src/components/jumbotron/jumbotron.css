@@ -1,0 +1,63 @@
+body {
+    overflow: hidden;
+}
+
+.jumbotron {
+    animation-name: leftIn;
+    animation-duration: 0.8s;
+    height: 100vh;
+    padding-left: 100px;
+}
+
+.social-box {
+    animation: fadeIn 1.2s ease-in;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.social-box i {
+    font-size: 1.7em;   
+}
+
+.social-box img {
+    border: 3px soild grey;
+    width: 120px;
+    margin: auto;
+    opacity: 0.5;
+}
+
+.right-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    height: 4em;
+    margin-right: 60px;
+}
+
+.icons-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+/*animations -----------------------*/
+
+@keyframes  leftIn{
+    from {
+        margin-left: -400px
+    }
+
+    to {
+        margin: 0;
+    }
+}
+
+@keyframes  fadeIn{
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1;
+    }
+}

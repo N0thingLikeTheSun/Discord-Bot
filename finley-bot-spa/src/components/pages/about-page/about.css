@@ -1,0 +1,14 @@
+.about {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(44,44,44);
+    animation: fade-in 0.6s ease-in;
+    height: 100vh;
+}
+
+.card{
+    height: 350px;
+}
+
